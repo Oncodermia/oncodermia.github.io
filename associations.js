@@ -21,13 +21,13 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Socio-esthétique",
-                "Conseil en image",
+                "Conseil en images",
                 "Bien-être",
                 "Soins de support"
             ],
 
             description:
-                "Association de l'Ain proposant des prestations de bien-être aux personnes en traitement contre le cancer, notamment de la socio-esthétique et du conseil en image.",
+                "Association de l'Ain proposant des prestations de bien-être aux personnes en traitement contre le cancer, notamment de la socio-esthétique et du conseil en images.",
 
             lien:
                 "https://www.helloasso.com/associations/blanc-bleu-rose"
@@ -113,7 +113,7 @@ Object.assign(associationsParDepartement, {
                 "Activité physique adaptée",
                 "Cancer du sein",
                 "Mobilité",
-                "Image corporelle"
+                "images corporelle"
             ],
 
             description:
@@ -309,7 +309,7 @@ Object.assign(associationsParDepartement, {
             type: "Association locale",
 
             services: [
-                "Image de soi",
+                "images de soi",
                 "Nutrition",
                 "Soutien psychologique",
                 "Activité physique adaptée",
@@ -473,7 +473,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "Structure de Mougins proposant de nombreux soins de support autour du bien-être et de l'image de soi.",
+                "Structure de Mougins proposant de nombreux soins de support autour du bien-être et de l'images de soi.",
 
             lien:
                 "https://cac-mougins.com/bien-etre/"
@@ -823,7 +823,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Socio-esthétique",
-                "Image de soi",
+                "images de soi",
                 "Soins du visage",
                 "Bien-être",
                 "Estime de soi"
@@ -1002,12 +1002,12 @@ Object.assign(associationsParDepartement, {
                 "Soins du visage",
                 "Peau fragilisée",
                 "Ongles",
-                "Image de soi",
+                "images de soi",
                 "Auto-soins"
             ],
 
             description:
-                "Association marseillaise spécialisée dans l'onco-esthétique et l'accompagnement des effets des traitements sur la peau, les ongles et l'image de soi.",
+                "Association marseillaise spécialisée dans l'onco-esthétique et l'accompagnement des effets des traitements sur la peau, les ongles et l'images de soi.",
 
             lien:
                 "https://www.oncobien-etre.fr/"
@@ -1190,7 +1190,7 @@ Object.assign(associationsParDepartement, {
             services: [
                 "Socio-esthétique",
                 "Soins de la peau",
-                "Conseil en image",
+                "Conseil en images",
                 "Maquillage",
                 "Bien-être",
                 "Nutrition",
@@ -1198,7 +1198,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "Centre de lutte contre le cancer à Caen proposant des soins esthétiques adaptés aux effets des traitements et du conseil en image.",
+                "Centre de lutte contre le cancer à Caen proposant des soins esthétiques adaptés aux effets des traitements et du conseil en images.",
 
             lien:
                 "https://www.baclesse.fr/specialite/soins-esthetiques/"
@@ -1439,7 +1439,7 @@ Object.assign(associationsParDepartement, {
             services: [
                 "Socio-esthétique",
                 "Coiffure",
-                "Image de soi",
+                "images de soi",
                 "Nutrition",
                 "Soutien psychologique",
                 "Activité physique adaptée"
@@ -1640,7 +1640,7 @@ Object.assign(associationsParDepartement, {
                 "Massage douceur",
                 "Hypnose",
                 "Boxe adaptée",
-                "Image de soi"
+                "images de soi"
             ],
 
             description:
@@ -1956,11 +1956,11 @@ Object.assign(associationsParDepartement, {
                 "Maquillage",
                 "Prothèses capillaires",
                 "Effets cutanés des traitements",
-                "Image de soi"
+                "images de soi"
             ],
 
             description:
-                "Centre de lutte contre le cancer situé à Bordeaux proposant gratuitement des soins de socio-esthétique et des conseils adaptés aux effets des traitements sur la peau, les cheveux et l'image corporelle.",
+                "Centre de lutte contre le cancer situé à Bordeaux proposant gratuitement des soins de socio-esthétique et des conseils adaptés aux effets des traitements sur la peau, les cheveux et l'images corporelle.",
 
             lien:
                 "https://www.bergonie.fr/diagnostic-et-traitements/soins-oncologiques-de-support/socio-esthetique/"
@@ -2037,7 +2037,7 @@ Object.assign(associationsParDepartement, {
                 "Maquillage",
                 "Prothèses capillaires",
                 "Foulards",
-                "Conseil en image"
+                "Conseil en images"
             ],
 
             description:
@@ -2114,7 +2114,7 @@ Object.assign(associationsParDepartement, {
                 "Manucure",
                 "Maquillage correcteur",
                 "Nouage de foulards",
-                "Conseil en image",
+                "Conseil en images",
                 "Art-thérapie"
             ],
 
@@ -2344,11 +2344,11 @@ Object.assign(associationsParDepartement, {
                 "Soutien psychologique",
                 "Sophrologie",
                 "Prothèses capillaires",
-                "Image de soi"
+                "images de soi"
             ],
 
             description:
-                "L'Institut de Cancérologie de l'Ouest à Saint-Herblain propose de nombreux soins de support, dont la socio-esthétique, la nutrition, la psychologie, l'activité physique adaptée et des ateliers autour de l'image de soi.",
+                "L'Institut de Cancérologie de l'Ouest à Saint-Herblain propose de nombreux soins de support, dont la socio-esthétique, la nutrition, la psychologie, l'activité physique adaptée et des ateliers autour de l'images de soi.",
 
             lien:
                 "https://www.institut-cancerologie-ouest.com/les-soins-de-support"
@@ -2409,7 +2409,7 @@ Object.assign(associationsParDepartement, {
                 "Soins du visage",
                 "Soins des mains et des pieds",
                 "Maquillage",
-                "Conseil en image",
+                "Conseil en images",
                 "Nutrition",
                 "Activité physique adaptée"
             ],
@@ -2447,12 +2447,12 @@ Object.assign(associationsParDepartement, {
                 "Nutrition",
                 "Soutien psychologique",
                 "Sophrologie",
-                "Image de soi",
+                "images de soi",
                 "Prothèses capillaires"
             ],
 
             description:
-                "L'Institut de Cancérologie de l'Ouest à Angers propose une prise en charge globale comprenant notamment socio-esthétique, activité physique adaptée, nutrition, psychologie et accompagnement de l'image corporelle.",
+                "L'Institut de Cancérologie de l'Ouest à Angers propose une prise en charge globale comprenant notamment socio-esthétique, activité physique adaptée, nutrition, psychologie et accompagnement de l'images corporelle.",
 
             lien:
                 "https://www.institut-cancerologie-ouest.com/les-soins-de-support"
@@ -2567,7 +2567,7 @@ Object.assign(associationsParDepartement, {
             services: [
                 "Socio-esthétique",
                 "Socio-coiffure",
-                "Atelier image",
+                "Atelier images",
                 "Activité physique adaptée",
                 "Sophrologie",
                 "Yoga",
@@ -2575,7 +2575,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "Association lavalloise accompagnant les personnes en cours de traitement contre un cancer grâce à de nombreux ateliers de mieux-être, notamment socio-esthétique, socio-coiffure et travail autour de l'image.",
+                "Association lavalloise accompagnant les personnes en cours de traitement contre un cancer grâce à de nombreux ateliers de mieux-être, notamment socio-esthétique, socio-coiffure et travail autour de l'images.",
 
             lien:
                 "https://www.helloasso.com/associations/parenthese-53"
@@ -2800,12 +2800,12 @@ Object.assign(associationsParDepartement, {
                 "Soins des mains et des pieds",
                 "Maquillage",
                 "Coiffure",
-                "Image de soi",
+                "images de soi",
                 "Activité physique adaptée"
             ],
 
             description:
-                "Centre de lutte contre le cancer à Lille proposant des soins socio-esthétiques afin d'accompagner notamment la chute des cheveux, la sécheresse, les rougeurs et les changements de l'image corporelle liés aux traitements.",
+                "Centre de lutte contre le cancer à Lille proposant des soins socio-esthétiques afin d'accompagner notamment la chute des cheveux, la sécheresse, les rougeurs et les changements de l'images corporelle liés aux traitements.",
 
             lien:
                 "https://www.centreoscarlambret.fr/les-soins-socio-esthetiques"
@@ -3094,7 +3094,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Soins esthétiques",
-                "Conseil en image",
+                "Conseil en images",
                 "Activité physique adaptée",
                 "Soutien psychologique",
                 "Sophrologie",
@@ -3103,7 +3103,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "Strasbourg Oncologie propose différents soins de support pendant les traitements, dont des soins esthétiques et de bien-être assurés par une professionnelle également formée au conseil en image.",
+                "Strasbourg Oncologie propose différents soins de support pendant les traitements, dont des soins esthétiques et de bien-être assurés par une professionnelle également formée au conseil en images.",
 
             lien:
                 "https://www.strasbourg-oncologie.fr/soins-de-support/"
@@ -3197,7 +3197,7 @@ Object.assign(associationsParDepartement, {
                 "Cuir chevelu",
                 "Prothèses capillaires",
                 "Maquillage correcteur",
-                "Image de soi"
+                "images de soi"
             ],
 
             description:
@@ -3497,7 +3497,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "Centre de lutte contre le cancer à Rouen proposant une prise en charge particulièrement complète autour des effets des traitements sur la peau, les cheveux, le cuir chevelu, les ongles et l'image de soi.",
+                "Centre de lutte contre le cancer à Rouen proposant une prise en charge particulièrement complète autour des effets des traitements sur la peau, les cheveux, le cuir chevelu, les ongles et l'images de soi.",
 
             lien:
                 "https://www.becquerel.fr/le-parcours-de-soins/les-soins-de-support/les-soins-de-support-au-centre/"
@@ -3616,7 +3616,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Socio-esthétique",
-                "Image corporelle",
+                "images corporelle",
                 "Nutrition",
                 "Soutien psychologique",
                 "Kinésithérapie",
@@ -3649,7 +3649,7 @@ Object.assign(associationsParDepartement, {
                 "Beauté des mains et des pieds",
                 "Ongles",
                 "Prothèses capillaires",
-                "Conseil en image",
+                "Conseil en images",
                 "Activité physique adaptée",
                 "Nutrition",
                 "Soutien psychologique"
@@ -3780,7 +3780,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Soins esthétiques",
-                "Image de soi",
+                "images de soi",
                 "Soins du visage",
                 "Bien-être",
                 "Oncologie"
@@ -3872,11 +3872,11 @@ Object.assign(associationsParDepartement, {
                 "Maquillage correcteur",
                 "Peau",
                 "Cheveux et foulards",
-                "Conseil en image"
+                "Conseil en images"
             ],
 
             description:
-                "Le Pôle Régional de Cancérologie du CHU de Poitiers dispose d'un espace de socio-esthétique proposant des soins du visage, des mains et des pieds ainsi que des conseils pour la peau, les cheveux, le maquillage et l'image de soi.",
+                "Le Pôle Régional de Cancérologie du CHU de Poitiers dispose d'un espace de socio-esthétique proposant des soins du visage, des mains et des pieds ainsi que des conseils pour la peau, les cheveux, le maquillage et l'images de soi.",
 
             lien:
                 "https://www.chu-poitiers.fr/pole-regional-cancerologie-2026/"
@@ -4090,7 +4090,7 @@ Object.assign(associationsParDepartement, {
                 "Socio-esthétique",
                 "Cancer du sein",
                 "Bien-être",
-                "Image de soi",
+                "images de soi",
                 "Accompagnement"
             ],
 
@@ -4108,7 +4108,7 @@ Object.assign(associationsParDepartement, {
             services: [
                 "Soins esthétiques",
                 "Chevelure",
-                "Image de soi",
+                "images de soi",
                 "Activité physique adaptée",
                 "Yoga",
                 "Sophrologie",
@@ -4117,7 +4117,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "La Maison des Patients et des Proches de l'Institut Curie à Saint-Cloud propose des ateliers autour des effets secondaires des traitements, notamment soins esthétiques, chevelure et image de soi, ainsi que différentes activités de bien-être.",
+                "La Maison des Patients et des Proches de l'Institut Curie à Saint-Cloud propose des ateliers autour des effets secondaires des traitements, notamment soins esthétiques, chevelure et images de soi, ainsi que différentes activités de bien-être.",
 
             lien:
                 "https://curie.fr/espaces-patients-proches"
@@ -4138,7 +4138,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Socio-esthétique",
-                "Image de soi",
+                "images de soi",
                 "Nutrition",
                 "Activité physique douce",
                 "Sophrologie",
@@ -4147,7 +4147,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "L'Espace Soins & Vie Martine Midy de l'hôpital Avicenne à Bobigny propose un accompagnement pluridisciplinaire destiné aux personnes touchées par le cancer, notamment autour de l'image de soi et de la socio-esthétique.",
+                "L'Espace Soins & Vie Martine Midy de l'hôpital Avicenne à Bobigny propose un accompagnement pluridisciplinaire destiné aux personnes touchées par le cancer, notamment autour de l'images de soi et de la socio-esthétique.",
 
             lien:
                 "https://hopital-avicenne.aphp.fr/cancer"
@@ -4168,7 +4168,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Socio-esthétique",
-                "Conseil en image",
+                "Conseil en images",
                 "Coiffure",
                 "Prothèses capillaires",
                 "Perruques et turbans",
@@ -4178,7 +4178,7 @@ Object.assign(associationsParDepartement, {
             ],
 
             description:
-                "Gustave Roussy à Villejuif propose un programme d'accompagnement pendant et après les traitements comprenant socio-esthétique, conseil en image, coiffure et accompagnement dans le choix des perruques, turbans et solutions capillaires.",
+                "Gustave Roussy à Villejuif propose un programme d'accompagnement pendant et après les traitements comprenant socio-esthétique, conseil en images, coiffure et accompagnement dans le choix des perruques, turbans et solutions capillaires.",
 
             lien:
                 "https://www.gustaveroussy.fr/patients-proches/soins/accompagnement-soins-support/programme-daccompagnement-mieux-vivre-cancer"
@@ -4360,7 +4360,7 @@ Object.assign(associationsParDepartement, {
                 "Soins du visage",
                 "Soins des mains",
                 "Perruques et foulards",
-                "Image de soi",
+                "images de soi",
                 "Bien-être"
             ],
 
@@ -4386,7 +4386,7 @@ Object.assign(associationsParDepartement, {
 
             services: [
                 "Socio-esthétique",
-                "Image de soi",
+                "images de soi",
                 "Trichologie",
                 "Massages bien-être",
                 "Yoga",
@@ -4408,7 +4408,7 @@ Object.assign(associationsParDepartement, {
             services: [
                 "Soins de support",
                 "Socio-esthétique",
-                "Image de soi",
+                "images de soi",
                 "Bien-être",
                 "Accompagnement"
             ],
