@@ -3716,12 +3716,18 @@ body .section-ligue {
 
 @media (max-width: 768px) {
     .bouton-haut {
-        right: 15px;
-        bottom: 15px;
+        position: fixed !important;
 
-        width: 44px;
-        height: 44px;
+        right: 18px !important;
+        bottom: 90px !important;
 
-        font-size: 22px;
+        width: 46px;
+        height: 46px;
+
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+
+        z-index: 99999 !important;
     }
 }
