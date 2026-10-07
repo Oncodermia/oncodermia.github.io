@@ -3680,3 +3680,48 @@ body .section-ligue {
         object-position: 72% center;
     }
 }
+.bouton-haut {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--prune);
+    color: white;
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    box-shadow: 0 8px 20px rgba(107, 48, 72, 0.2);
+
+    z-index: 9999;
+
+    transition: 0.3s ease;
+}
+
+.bouton-haut:hover {
+    background-color: var(--rose-nude);
+    color: var(--prune);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .bouton-haut {
+        right: 15px;
+        bottom: 15px;
+
+        width: 44px;
+        height: 44px;
+
+        font-size: 22px;
+    }
+}
