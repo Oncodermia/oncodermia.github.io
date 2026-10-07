@@ -3680,10 +3680,10 @@ body .section-ligue {
 
     .hero-image img {
         width: 100% !important;
-        height: 380px !important;
+        height: 100px !important;
 
         object-fit: cover;
-        object-position: center;
+         object-position: 70% center;
 
         border-radius: 150px 150px 20px 20px !important;
     }
