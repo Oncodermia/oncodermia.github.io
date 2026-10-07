@@ -3674,16 +3674,17 @@ body .section-ligue {
     .hero-image {
         width: 100%;
         max-width: 320px !important;
+        height: 600px !important;
         margin: 40px auto 20px !important;
+        overflow: hidden;
+
+        border-radius: 150px 150px 20px 20px !important;
     }
 
     .hero-image img {
         width: 100% !important;
-        height: 520px !important;
-
+        height: 100% !important;
         object-fit: cover;
-        object-position: 70% center;
-
-        border-radius: 150px 150px 20px 20px !important;
+        object-position: 72% center;
     }
 }
