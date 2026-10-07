@@ -1,0 +1,3562 @@
+/* =========================
+   MENU
+========================= */
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* Conteneur du menu Soins */
+
+.menu-deroulant {
+    position: relative;
+}
+
+
+/* Sous-menu */
+
+.sous-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: white;
+
+    min-width: 180px;
+
+    padding: 10px 0;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    z-index: 1000;
+}
+
+
+/* Liens du sous-menu */
+
+.sous-menu a {
+    display: block;
+
+    padding: 10px 20px;
+
+    white-space: nowrap;
+}
+
+
+/* Afficher le sous-menu au survol */
+
+.menu-deroulant:hover .sous-menu {
+    display: block;
+}
+
+
+/* Effet au survol des liens */
+
+.sous-menu a:hover {
+    background-color: #f5f5f5;
+}
+/* =========================
+   IDENTITÉ VISUELLE ONCODERMIA
+========================= */
+
+:root {
+    --rose-nude: #D8A7A7;
+    --prune: #6B3048;
+    --creme: #FAF7F4;
+    --blanc: #FFFFFF;
+    --texte: #292525;
+}
+
+
+/* =========================
+   STYLE GÉNÉRAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    background-color: var(--creme);
+
+    color: var(--texte);
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   EN-TÊTE
+========================= */
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background-color: var(--blanc);
+
+    border-bottom: 1px solid #eee;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: var(--prune);
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+nav a {
+    color: var(--texte);
+
+    font-size: 15px;
+
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--prune);
+}
+
+
+/* =========================
+   MENU DÉROULANT
+========================= */
+
+.sous-menu {
+    border-radius: 8px;
+}
+
+
+/* =========================
+   ACCUEIL
+========================= */
+
+.hero {
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background-color: var(--creme);
+}
+
+
+.hero-content {
+    max-width: 800px;
+}
+
+
+.hero h1 {
+    font-size: 64px;
+
+    margin: 0 0 25px;
+
+    color: var(--prune);
+
+    letter-spacing: 2px;
+}
+
+
+.accroche {
+    font-size: 24px;
+
+    line-height: 1.6;
+
+    margin-bottom: 40px;
+}
+
+
+/* =========================
+   BOUTON
+========================= */
+
+.bouton {
+    display: inline-block;
+
+    padding: 15px 30px;
+
+    background-color: var(--prune);
+
+    color: var(--blanc);
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    transition: all 0.3s ease;
+}
+
+
+.bouton:hover {
+    background-color: var(--rose-nude);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+    padding: 100px 10%;
+
+    text-align: center;
+
+    background-color: var(--blanc);
+}
+
+
+.section:nth-child(even) {
+    background-color: var(--creme);
+}
+
+
+.section h2 {
+    font-size: 40px;
+
+    color: var(--prune);
+
+    margin-bottom: 20px;
+}
+
+
+.section p {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    line-height: 1.7;
+
+    font-size: 17px;
+}
+
+
+/* =========================
+   CARTES
+========================= */
+
+.cartes {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+
+
+.carte {
+    width: 280px;
+
+    padding: 35px;
+
+    background-color: var(--blanc);
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+
+    transition: transform 0.3s ease;
+}
+
+
+.carte:hover {
+    transform: translateY(-5px);
+}
+
+
+.carte h3 {
+    color: var(--prune);
+
+    font-size: 22px;
+}
+
+
+/* =========================
+   PIED DE PAGE
+========================= */
+
+footer {
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: var(--prune);
+
+    color: var(--blanc);
+}
+/* =========================
+   HERO ONCODERMIA
+========================= */
+
+.hero {
+    min-height: 700px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    text-align: left;
+
+    padding: 100px 10%;
+
+    background-color: var(--creme);
+}
+
+
+.hero-content {
+    max-width: 700px;
+}
+
+
+.hero-sur-titre {
+    color: var(--rose-nude);
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+
+.hero h1 {
+    font-size: 52px;
+
+    line-height: 1.1;
+
+    color: var(--prune);
+
+    margin: 0 0 30px;
+}
+
+
+.hero h1 span {
+    display: block;
+
+    color: var(--rose-nude);
+}
+
+
+.hero .accroche {
+    max-width: 600px;
+
+    font-size: 21px;
+
+    line-height: 1.7;
+
+    margin: 0 0 40px;
+}
+/* =========================
+   HERO AVEC IMAGE
+========================= */
+
+.hero {
+    min-height: 700px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 80px;
+
+    padding: 90px 8%;
+
+    background-color: var(--creme);
+
+    overflow: hidden;
+}
+
+
+.hero-content {
+    flex: 1;
+
+    max-width: 600px;
+}
+
+
+.hero-image {
+    flex: 1;
+
+    max-width: 600px;
+
+    position: relative;
+}
+
+
+.hero-image img {
+    width: 100%;
+
+    height: 520px;
+
+    object-fit: cover;
+
+    border-radius: 180px 180px 20px 20px;
+
+    display: block;
+
+    box-shadow: 0 20px 50px rgba(107, 48, 72, 0.12);
+}
+/* =========================
+   UNIVERS DE SOINS
+========================= */
+
+#soins {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+#soins h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+#soins > p {
+    color: #625b5b;
+    margin-bottom: 60px;
+}
+
+
+/* CARTES */
+
+#soins .cartes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    gap: 30px;
+}
+
+
+#soins .carte {
+    width: 100%;
+    min-height: 280px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    text-align: left;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background-color: var(--creme);
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+
+    box-shadow: 0 10px 35px rgba(107, 48, 72, 0.07);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+#soins .carte:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 18px 45px rgba(107, 48, 72, 0.13);
+}
+
+
+#soins .carte h3 {
+    font-size: 26px;
+
+    margin: 0 0 12px;
+
+    color: var(--prune);
+}
+
+
+#soins .carte p {
+    font-size: 16px;
+
+    margin: 0;
+
+    color: #625b5b;
+}
+/* CARTES CLIQUABLES */
+
+#soins .carte {
+    text-decoration: none;
+    color: inherit;
+}
+
+.lien-carte {
+    margin-top: 25px;
+
+    color: var(--prune);
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+/* =========================
+   PAGE VISAGE
+========================= */
+
+.logo a {
+    color: var(--prune);
+    text-decoration: none;
+}
+
+
+/* HERO DES PAGES */
+
+.page-hero {
+    padding: 120px 10%;
+
+    background-color: var(--creme);
+}
+
+
+.page-hero-contenu {
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+.page-hero h1 {
+    margin: 15px 0 30px;
+
+    color: var(--prune);
+
+    font-size: 52px;
+
+    line-height: 1.15;
+}
+
+
+.page-hero h1 span {
+    display: block;
+
+    color: var(--rose-nude);
+}
+
+
+.page-hero p:not(.hero-sur-titre) {
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    color: #625b5b;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* CONTENU */
+
+.contenu-etroit {
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+
+.introduction-visage {
+    padding: 100px 10%;
+
+    background-color: var(--blanc);
+
+    text-align: center;
+}
+
+
+.petit-titre {
+    margin-bottom: 15px;
+
+    color: var(--rose-nude);
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.introduction-visage h2,
+.routine-visage h2 {
+    margin: 0 0 25px;
+
+    color: var(--prune);
+
+    font-size: 38px;
+}
+
+
+.introduction-visage p:not(.petit-titre) {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    color: #625b5b;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* ROUTINE */
+
+.routine-visage {
+    padding: 100px 10%;
+
+    background-color: var(--creme);
+
+    text-align: center;
+}
+
+/* =========================
+   ARTICLES VISAGE
+========================= */
+
+.articles-visage {
+    padding: 100px 8%;
+    background-color: var(--creme);
+}
+
+.contenu-articles {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.articles-visage h2 {
+    max-width: 700px;
+
+    margin: 0 0 20px;
+
+    color: var(--prune);
+
+    font-size: 38px;
+}
+
+.intro-articles {
+    max-width: 650px;
+
+    margin-bottom: 50px;
+
+    color: #625b5b;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* GRILLE */
+
+.grille-articles {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+
+/* CARTE ARTICLE */
+
+.carte-article {
+    min-height: 350px;
+
+    display: flex;
+
+    padding: 40px;
+
+    background-color: var(--blanc);
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    box-shadow: 0 10px 35px rgba(107, 48, 72, 0.06);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.carte-article:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 18px 45px rgba(107, 48, 72, 0.12);
+}
+
+
+.contenu-carte-article {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+
+.categorie-article {
+    margin-bottom: 20px;
+
+    color: var(--rose-nude);
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.carte-article h3 {
+    margin: 0 0 20px;
+
+    color: var(--prune);
+
+    font-size: 25px;
+
+    line-height: 1.35;
+}
+
+
+.carte-article p {
+    margin: 0 0 30px;
+
+    color: #625b5b;
+
+    line-height: 1.7;
+}
+
+
+.lire-article {
+    margin-top: auto;
+
+    color: var(--prune);
+
+    font-weight: bold;
+}
+/* =========================
+   ARTICLE ONCODERMIA
+========================= */
+
+.article {
+    background-color: var(--creme);
+}
+
+
+/* FIL D'ARIANE */
+
+.fil-ariane {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 35px 30px 0;
+
+    font-size: 14px;
+
+    color: #776f6f;
+}
+
+.fil-ariane a {
+    color: var(--prune);
+
+    text-decoration: none;
+}
+
+.fil-ariane span {
+    margin: 0 7px;
+}
+
+
+/* INTRODUCTION */
+
+.article-intro {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 80px 30px 60px;
+}
+
+.article-intro h1 {
+    max-width: 850px;
+
+    margin: 15px 0 30px;
+
+    color: var(--prune);
+
+    font-size: 48px;
+
+    line-height: 1.15;
+}
+
+.article-intro h1 span {
+    color: var(--rose-nude);
+}
+
+.article-intro p {
+    max-width: 780px;
+
+    color: #514b4b;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+.article-chapeau {
+    font-size: 19px !important;
+}
+
+
+/* CONTENU ARTICLE */
+
+.article-contenu {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 20px 30px 60px;
+}
+
+.article-contenu h2 {
+    margin: 0 0 30px;
+
+    color: var(--prune);
+
+    font-size: 34px;
+
+    line-height: 1.3;
+}
+
+.article-contenu h3 {
+    margin: 45px 0 18px;
+
+    color: var(--prune);
+
+    font-size: 23px;
+}
+
+.article-contenu p,
+.article-contenu li {
+    color: #514b4b;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+.article-contenu ul {
+    padding-left: 25px;
+}
+
+
+/* ENCADRÉ IMPORTANT */
+
+.encadre-information {
+    margin-top: 40px;
+
+    padding: 25px 30px;
+
+    background-color: var(--blanc);
+
+    border-left: 4px solid var(--rose-nude);
+
+    border-radius: 8px;
+}
+
+.encadre-information strong {
+    color: var(--prune);
+}
+
+.encadre-information p {
+    margin-bottom: 0;
+}
+
+
+/* ENCADRÉ CONSEIL */
+
+.encadre-conseil {
+    margin-top: 35px;
+
+    padding: 25px 30px;
+
+    background-color: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 30px rgba(107, 48, 72, 0.06);
+}
+
+.encadre-conseil strong {
+    color: var(--prune);
+}
+
+.encadre-conseil p {
+    margin-bottom: 0;
+}
+/* =========================
+   ÉTAPES DE ROUTINE
+========================= */
+
+.etape-routine {
+    display: grid;
+
+    grid-template-columns: 80px 1fr;
+
+    gap: 30px;
+
+    margin-top: 60px;
+
+    padding-top: 50px;
+
+    border-top: 1px solid rgba(107, 48, 72, 0.15);
+}
+
+
+.numero-etape {
+    color: var(--rose-nude);
+
+    font-size: 48px;
+
+    font-weight: bold;
+
+    line-height: 1;
+}
+
+
+.contenu-etape {
+    text-align: left;
+}
+
+
+.type-etape {
+    margin: 0 0 8px !important;
+
+    color: var(--rose-nude) !important;
+
+    font-size: 12px !important;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.contenu-etape h3 {
+    margin: 0 0 20px;
+
+    color: var(--prune);
+
+    font-size: 28px;
+}
+
+
+/* CONSEIL ONCODERMIA */
+
+.conseil-oncodermia {
+    margin: 30px 0;
+
+    padding: 20px 25px;
+
+    background-color: var(--blanc);
+
+    border-left: 3px solid var(--rose-nude);
+
+    border-radius: 8px;
+}
+
+
+.conseil-oncodermia strong {
+    color: var(--prune);
+}
+
+
+.conseil-oncodermia p {
+    margin: 5px 0 0;
+}
+
+
+/* =========================
+   PRODUITS
+========================= */
+
+.titre-produits {
+    margin: 40px 0 20px;
+
+    color: var(--prune);
+
+    font-size: 18px;
+}
+
+
+.grille-produits {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+.produit {
+    overflow: hidden;
+
+    background-color: var(--blanc);
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+
+    border-radius: 15px;
+}
+
+
+.image-produit {
+    height: 220px;
+
+    background-color: #f5efeb;
+}
+
+
+.infos-produit {
+    padding: 25px;
+}
+
+
+.marque-produit {
+    color: var(--rose-nude);
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 1.5px;
+}
+
+
+.infos-produit h4 {
+    margin: 10px 0;
+
+    color: var(--prune);
+
+    font-size: 18px;
+}
+
+
+.infos-produit p {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+.lien-produit {
+    color: var(--prune);
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+/* =========================
+   CORRECTION IMAGES PRODUITS
+========================= */
+
+.grille-produits {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+}
+
+.produit {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+
+    background-color: #ffffff;
+    border-radius: 18px;
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+
+    box-shadow: 0 8px 25px rgba(107, 48, 72, 0.06);
+}
+
+.image-produit {
+    width: 100%;
+    height: 260px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+
+    background-color: #ffffff;
+
+    overflow: hidden;
+}
+
+.image-produit img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    max-width: 300px;
+    max-height: 300px;
+
+    object-fit: contain;
+
+    transform: scale(1.25);
+}
+
+.infos-produit {
+    padding: 25px;
+}
+/* =========================
+   MOT DE FIN ONCODERMIA
+========================= */
+
+.mot-fin-oncodermia {
+    margin-top: 90px;
+    padding: 60px;
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    border-radius: 25px;
+
+    box-shadow: 0 12px 40px rgba(107, 48, 72, 0.07);
+}
+
+
+.mot-fin-oncodermia h2 {
+    margin: 10px auto 25px;
+
+    color: var(--prune);
+
+    font-size: 32px;
+}
+
+
+.texte-mot-fin {
+    max-width: 680px;
+
+    margin: 0 auto;
+
+    color: #514b4b;
+
+    font-size: 18px !important;
+
+    line-height: 1.8;
+}
+
+
+/* CITATION */
+
+.citation-oncodermia {
+    max-width: 650px;
+
+    margin: 45px auto 0;
+
+    padding-top: 35px;
+
+    border-top: 1px solid rgba(107, 48, 72, 0.15);
+}
+
+
+.citation-oncodermia p {
+    margin: 0 0 15px;
+
+    color: var(--prune);
+
+    font-size: 22px !important;
+
+    font-style: italic;
+
+    line-height: 1.6;
+}
+
+
+.citation-oncodermia span {
+    color: var(--rose-nude);
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+/* =========================
+   CENTRER LE 3E PRODUIT
+========================= */
+
+.grille-produits-3 .produit:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc(50% - 12.5px);
+    justify-self: center;
+}
+/* =========================
+   IMAGE PRODUIT LARGE
+========================= */
+
+.image-produit img.image-produit-large {
+    transform: scale(0.95);
+}
+
+/* ==================================================
+   CARTE INTERACTIVE DE FRANCE
+================================================== */
+
+.carte-france-section {
+    padding: 100px 30px;
+    background-color: var(--creme);
+}
+
+.carte-france-section h2 {
+    margin: 10px 0 20px;
+
+    color: var(--prune);
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.intro-carte-france {
+    max-width: 700px;
+
+    margin-bottom: 50px;
+
+    color: #625b5b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* CARTE + INFORMATIONS */
+
+.carte-france-conteneur {
+    display: grid;
+
+    grid-template-columns: 1.3fr 0.7fr;
+
+    gap: 50px;
+
+    align-items: start;
+}
+
+
+/* ZONE DE LA CARTE */
+
+.carte-france {
+    width: 100%;
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--blanc);
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 35px rgba(107, 48, 72, 0.06);
+}
+
+
+/* PANNEAU D'INFORMATIONS */
+
+.departement-infos {
+    padding: 40px;
+
+    background-color: var(--blanc);
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 35px rgba(107, 48, 72, 0.08);
+}
+
+.departement-label {
+    margin-bottom: 12px;
+
+    color: var(--rose-nude);
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.departement-infos h3 {
+    margin: 0 0 20px;
+
+    color: var(--prune);
+
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.departement-infos > p:not(.departement-label) {
+    color: #625b5b;
+
+    line-height: 1.7;
+}
+
+
+/* FUTURES RESSOURCES */
+
+.departement-ressources {
+    margin-top: 30px;
+}
+
+.ressource-departement {
+    display: block;
+
+    margin-top: 12px;
+    padding: 16px 18px;
+
+    color: var(--prune);
+
+    background-color: var(--creme);
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    transition: 0.25s ease;
+}
+
+.ressource-departement:hover {
+    background-color: var(--rose-nude);
+}
+/* ==================================================
+   VERSION MOBILE ONCODERMIA
+================================================== */
+
+@media (max-width: 768px) {
+
+    /* =========================
+       BASE
+    ========================= */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    /* =========================
+       ACCOMPAGNEMENT
+    ========================= */
+
+    .accompagnement-intro {
+        padding: 60px 22px;
+    }
+
+    .accompagnement-intro h2 {
+        font-size: 30px;
+    }
+
+    .section-ligue,
+    .section-associations {
+        padding: 70px 22px;
+    }
+
+    .section-ligue h2,
+    .section-associations h2 {
+        font-size: 31px;
+    }
+
+    .texte-section {
+        margin-bottom: 35px;
+    }
+
+    .grille-aides {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+        margin-top: 35px;
+    }
+
+    .carte-aide {
+        padding: 28px;
+    }
+
+    .bloc-lien-accompagnement {
+        margin-top: 30px;
+        padding: 28px 22px;
+    }
+
+    .bloc-associations-a-venir {
+        padding: 30px 25px;
+    }
+
+    .trouver-aide {
+        padding: 70px 22px;
+    }
+
+    .trouver-aide h2 {
+        font-size: 31px;
+    }
+
+    .rappel-accompagnement {
+        padding: 40px 22px;
+    }
+  
+  /* =========================
+       CARTE DE FRANCE
+    ========================= */
+
+    .carte-france-section {
+        padding: 70px 22px;
+    }
+
+    .carte-france-section h2 {
+        font-size: 31px;
+    }
+
+    .intro-carte-france {
+        margin-bottom: 35px;
+    }
+
+    .carte-france-conteneur {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .carte-france {
+        min-height: 420px;
+
+        border-radius: 18px;
+    }
+
+    .departement-infos {
+        padding: 28px 24px;
+
+        border-radius: 18px;
+    }
+
+    .departement-infos h3 {
+        font-size: 25px;
+    }
+}
+/* ==================================================
+   PAGE ACCOMPAGNEMENT
+================================================== */
+
+
+/* INTRODUCTION */
+
+.accompagnement-intro {
+    padding: 90px 30px;
+    background-color: var(--blanc);
+}
+
+.accompagnement-intro .contenu-etroit {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.accompagnement-intro h2 {
+    margin: 12px 0 25px;
+
+    color: var(--prune);
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.accompagnement-intro p {
+    color: #625b5b;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   LIGUE CONTRE LE CANCER
+========================= */
+
+.section-ligue {
+    padding: 100px 30px;
+    background-color: var(--creme);
+}
+
+.contenu-accompagnement {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-ligue h2,
+.section-associations h2 {
+    margin: 10px 0 20px;
+
+    color: var(--prune);
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.texte-section {
+    max-width: 750px;
+
+    margin-bottom: 50px;
+
+    color: #625b5b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* CARTES DES AIDES */
+
+.grille-aides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    margin-top: 45px;
+}
+
+.carte-aide {
+    padding: 35px;
+
+    background-color: var(--blanc);
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(107, 48, 72, 0.06);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.carte-aide:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(107, 48, 72, 0.10);
+}
+
+.icone-aide {
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-size: 30px;
+}
+
+.carte-aide h3 {
+    margin-bottom: 15px;
+
+    color: var(--prune);
+    font-size: 23px;
+}
+
+.carte-aide p {
+    margin: 0;
+
+    color: #625b5b;
+    line-height: 1.7;
+}
+
+
+/* BOUTON LIGUE */
+
+.bloc-lien-accompagnement {
+    margin-top: 50px;
+    padding: 35px;
+
+    text-align: center;
+
+    background-color: var(--blanc);
+
+    border-radius: 20px;
+}
+
+.bloc-lien-accompagnement p {
+    margin: 0 0 25px;
+
+    color: #625b5b;
+}
+
+
+/* =========================
+   ASSOCIATIONS
+========================= */
+
+.section-associations {
+    padding: 100px 30px;
+
+    background-color: var(--blanc);
+}
+
+.bloc-associations-a-venir {
+    margin-top: 40px;
+    padding: 40px;
+
+    background-color: var(--creme);
+
+    border-left: 4px solid var(--rose-nude);
+    border-radius: 0 18px 18px 0;
+}
+
+.bloc-associations-a-venir p {
+    margin: 0;
+
+    color: #625b5b;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   TROUVER UNE AIDE
+========================= */
+
+.trouver-aide {
+    padding: 100px 30px;
+
+    background-color: var(--prune);
+}
+
+.bloc-trouver-aide {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.trouver-aide .petit-titre {
+    color: var(--rose-nude);
+}
+
+.trouver-aide h2 {
+    margin: 12px 0 25px;
+
+    color: var(--blanc);
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.trouver-aide p {
+    margin-bottom: 35px;
+
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.trouver-aide .bouton {
+    background-color: var(--rose-nude);
+    color: var(--prune);
+}
+
+.trouver-aide .bouton:hover {
+    background-color: var(--blanc);
+}
+
+
+/* =========================
+   RAPPEL
+========================= */
+
+.rappel-accompagnement {
+    padding: 50px 30px;
+
+    background-color: var(--creme);
+}
+
+.rappel-accompagnement .contenu-etroit {
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.rappel-accompagnement p {
+    margin: 0;
+
+    color: #625b5b;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.rappel-accompagnement strong {
+    color: var(--prune);
+}
+
+    /* =========================
+       HEADER + MENU MOBILE
+    ========================= */
+
+    header {
+        padding: 18px 22px;
+        position: sticky;
+        top: 0;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .menu-mobile {
+        display: flex;
+
+        width: 36px;
+        height: 30px;
+        padding: 4px;
+
+        flex-direction: column;
+        justify-content: space-between;
+
+        background: none;
+        border: none;
+
+        cursor: pointer;
+    }
+
+    .menu-mobile span {
+        display: block;
+
+        width: 100%;
+        height: 2px;
+
+        background-color: var(--prune);
+        border-radius: 5px;
+
+        transition: 0.3s ease;
+    }
+
+    header nav {
+        display: none;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        padding: 20px 22px 25px;
+
+        background-color: var(--blanc);
+
+        border-top: 1px solid #eee;
+
+        box-shadow: 0 12px 25px rgba(107, 48, 72, 0.08);
+    }
+
+    header nav.menu-ouvert {
+        display: flex;
+
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+    }
+
+    header nav > a,
+    header nav .menu-deroulant > a {
+        display: block;
+
+        padding: 13px 0;
+
+        color: var(--prune);
+        font-size: 15px;
+
+        border-bottom: 1px solid rgba(107, 48, 72, 0.08);
+    }
+
+    header nav .sous-menu {
+        display: block;
+
+        position: static;
+
+        min-width: 0;
+
+        padding: 0 0 5px 18px;
+
+        background: transparent;
+        box-shadow: none;
+    }
+
+    header nav .sous-menu a {
+        padding: 9px 0;
+
+        color: #625b5b;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       ACCUEIL - HERO
+    ========================= */
+
+    .hero {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        min-height: 0;
+        height: auto;
+
+        padding: 70px 28px 20px;
+
+        overflow: hidden;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: none;
+    }
+
+    .hero-sur-titre {
+        margin-bottom: 22px;
+
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        width: 100%;
+        max-width: none;
+
+        margin: 0 0 30px;
+
+        font-size: 38px;
+        line-height: 1.12;
+        letter-spacing: 0;
+
+        overflow-wrap: break-word;
+    }
+
+    .hero h1 span {
+        display: block;
+    }
+
+    .hero .accroche {
+        width: 100%;
+        max-width: none;
+
+        margin: 0 0 38px;
+
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .hero .bouton {
+        display: inline-block;
+
+        max-width: 100%;
+
+        padding: 14px 25px;
+
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    /* PHOTO ACCUEIL */
+
+    .hero-image {
+        display: block;
+
+        width: 100%;
+        max-width: 320px;
+
+        margin: 40px auto 0;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 380px;
+
+        object-fit: cover;
+        object-position: center;
+
+        border-radius: 150px 150px 20px 20px;
+    }
+
+
+    /* =========================
+       ACCUEIL - SOINS
+    ========================= */
+
+    #soins {
+        padding: 35px 22px 70px;
+    }
+
+    #soins h2 {
+        font-size: 36px;
+    }
+
+    #soins > p {
+        margin-bottom: 40px;
+
+        font-size: 16px;
+    }
+
+    #soins .cartes {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        width: 100%;
+        max-width: 100%;
+
+        gap: 20px;
+
+        margin: 0 auto;
+    }
+
+    #soins .carte {
+        width: 100%;
+        max-width: 100%;
+
+        min-height: 210px;
+
+        padding: 28px;
+    }
+
+
+    /* =========================
+       PAGE VISAGE - HERO
+    ========================= */
+
+    .page-hero {
+        padding: 70px 22px;
+    }
+
+    .page-hero h1 {
+        font-size: 36px;
+    }
+
+
+    /* =========================
+       PAGE VISAGE - INTRO
+    ========================= */
+
+    .introduction-visage {
+        padding: 70px 22px;
+    }
+
+    .introduction-visage h2 {
+        font-size: 30px;
+    }
+
+
+    /* =========================
+       PAGE VISAGE - ARTICLES
+    ========================= */
+
+    .articles-visage {
+        padding: 70px 22px;
+    }
+
+    .articles-visage h2 {
+        font-size: 30px;
+    }
+
+    .articles-visage .contenu-articles .grille-articles {
+        display: grid;
+
+        grid-template-columns: minmax(0, 1fr);
+
+        width: 100%;
+        max-width: 100%;
+
+        gap: 20px;
+    }
+
+    .articles-visage .grille-articles .carte-article {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
+        min-height: auto;
+
+        padding: 30px;
+    }
+
+    .carte-article h3 {
+        font-size: 23px;
+    }
+
+
+    /* =========================
+       ARTICLE
+    ========================= */
+
+    .article-intro {
+        padding: 50px 20px 35px;
+    }
+
+    .article-intro h1 {
+        font-size: 34px;
+    }
+
+    .article-contenu {
+        padding: 20px 20px 50px;
+    }
+
+    .article-contenu h2 {
+        font-size: 28px;
+    }
+
+
+    /* =========================
+       ÉTAPES DE ROUTINE
+    ========================= */
+
+    .etape-routine {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-top: 45px;
+        padding-top: 35px;
+    }
+
+    .numero-etape {
+        font-size: 38px;
+    }
+
+    .contenu-etape h3 {
+        font-size: 25px;
+    }
+
+
+    /* =========================
+       PRODUITS
+    ========================= */
+
+    .grille-produits,
+    .grille-produits-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .grille-produits-3 .produit:last-child:nth-child(odd) {
+        grid-column: auto;
+
+        width: 100%;
+
+        justify-self: stretch;
+    }
+
+    .image-produit {
+        height: 260px;
+    }
+
+
+    /* =========================
+       MOT DE FIN
+    ========================= */
+
+    .mot-fin-oncodermia {
+        margin-top: 60px;
+
+        padding: 40px 25px;
+    }
+
+    .mot-fin-oncodermia h2 {
+        font-size: 27px;
+    }
+
+    .citation-oncodermia p {
+        font-size: 19px !important;
+    }
+
+}
+
+
+/* ==================================================
+   BOUTON MOBILE CACHÉ SUR ORDINATEUR
+================================================== */
+
+@media (min-width: 769px) {
+
+    .menu-mobile {
+        display: none;
+    }
+
+}/* ==================================================
+   CORRECTION CARTE FRANCE
+================================================== */
+
+#carte-france svg {
+    width: 90%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#carte-france svg path.departement {
+    fill: #F1DEDE !important;
+    stroke: #FFFFFF !important;
+    stroke-width: 1.5px !important;
+
+    cursor: pointer;
+
+    transition: fill 0.2s ease;
+}
+
+#carte-france svg path.departement:hover {
+    fill: #D8A7A7 !important;
+}
+
+#carte-france svg path.departement.departement-actif {
+    fill: #6B3048 !important;
+}
+/* ==================================================
+   RESSOURCES - CARTE FRANCE
+================================================== */
+
+.bloc-ressource-carte {
+    display: flex;
+    gap: 16px;
+    margin-top: 18px;
+    padding: 20px;
+    background-color: var(--creme);
+    border-radius: 15px;
+}
+
+.icone-ressource-carte {
+    flex-shrink: 0;
+    font-size: 25px;
+}
+
+.bloc-ressource-carte h4 {
+    margin: 0 0 8px;
+    color: var(--prune);
+    font-size: 17px;
+}
+
+.bloc-ressource-carte p {
+    margin: 0 0 10px;
+    color: #625b5b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.bloc-ressource-carte a {
+    color: var(--prune);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bloc-ressource-carte a:hover {
+    text-decoration: underline;
+}
+
+.mention-disponibilite {
+    color: var(--rose-nude);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+/* ==================================================
+   CARTES ASSOCIATIONS
+================================================== */
+
+.grille-associations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.carte-association {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-color: var(--creme);
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(107, 48, 72, 0.06);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.carte-association:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(107, 48, 72, 0.10);
+}
+
+
+/* Haut de la carte */
+
+.haut-carte-association {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.icone-association {
+    font-size: 30px;
+}
+
+.badge-association {
+    padding: 7px 12px;
+    color: var(--prune);
+    background-color: #F1DEDE;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+
+/* Texte */
+
+.carte-association h3 {
+    margin: 0 0 15px;
+    color: var(--prune);
+    font-size: 24px;
+}
+
+.carte-association > p {
+    margin: 0 0 22px;
+    color: #625b5b;
+    line-height: 1.7;
+}
+
+
+/* Petites catégories */
+
+.tags-association {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.tags-association span {
+    padding: 7px 11px;
+    color: #625b5b;
+    background-color: var(--blanc);
+    border: 1px solid rgba(107, 48, 72, 0.10);
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+
+/* Lien */
+
+.lien-association {
+    display: inline-block;
+    margin-top: auto;
+    color: var(--prune);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.lien-association:hover {
+    text-decoration: underline;
+}
+
+
+/* Carte associations locales */
+
+.carte-association-locale {
+    background-color: #F7EEEE;
+}
+
+
+/* Note sous les cartes */
+
+.note-associations {
+    margin-top: 40px;
+    padding: 28px 32px;
+    background-color: var(--creme);
+    border-left: 4px solid var(--rose-nude);
+    border-radius: 0 16px 16px 0;
+}
+
+.note-associations p {
+    margin: 0;
+    color: #625b5b;
+    line-height: 1.7;
+}
+
+.note-associations strong {
+    color: var(--prune);
+}
+
+
+/* ==================================================
+   ASSOCIATIONS - MOBILE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .grille-associations {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 35px;
+    }
+
+    .carte-association {
+        padding: 28px 24px;
+    }
+
+    .carte-association h3 {
+        font-size: 22px;
+    }
+
+    .note-associations {
+        margin-top: 30px;
+        padding: 25px 22px;
+    }
+
+}
+/* ==================================================
+   ASSOCIATIONS LOCALES - CARTE FRANCE
+================================================== */
+
+.titre-associations-locales,
+.aucune-association-locale {
+    display: flex;
+    gap: 16px;
+    margin-top: 28px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(107, 48, 72, 0.12);
+}
+
+.titre-associations-locales > span,
+.aucune-association-locale > span {
+    flex-shrink: 0;
+    font-size: 23px;
+}
+
+.titre-associations-locales h4,
+.aucune-association-locale h4 {
+    margin: 0 0 7px;
+    color: var(--prune);
+    font-size: 18px;
+}
+
+.titre-associations-locales p,
+.aucune-association-locale p {
+    margin: 0;
+    color: #625b5b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.aucune-association-locale small {
+    display: block;
+    margin-top: 10px;
+    color: var(--rose-nude);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* Carte d'une association locale */
+
+.association-locale-carte {
+    margin-top: 18px;
+    padding: 22px;
+    background-color: #F7EEEE;
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-radius: 15px;
+}
+
+.type-association-locale {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 9px;
+    color: var(--prune);
+    background-color: var(--blanc);
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.association-locale-carte h5 {
+    margin: 0 0 10px;
+    color: var(--prune);
+    font-size: 18px;
+}
+
+.association-locale-carte p {
+    margin: 0 0 15px;
+    color: #625b5b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* Tags */
+
+.services-association-locale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 16px;
+}
+
+.tag-ressource-locale {
+    padding: 6px 9px;
+    color: #625b5b;
+    background-color: var(--blanc);
+    border-radius: 20px;
+    font-size: 11px;
+}
+
+
+/* Lien */
+
+.association-locale-carte a {
+    color: var(--prune);
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.association-locale-carte a:hover {
+    text-decoration: underline;
+}
+/* ==================================================
+   SECTION LIGUE CONTRE LE CANCER
+================================================== */
+
+.section-ligue {
+    padding: 100px 30px;
+    background-color: var(--creme);
+}
+
+.section-ligue .contenu-accompagnement {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-ligue h2 {
+    margin: 10px 0 20px;
+    color: var(--prune);
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.section-ligue .texte-section {
+    max-width: 760px;
+    margin-bottom: 45px;
+    color: #625b5b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Les 4 services */
+
+.section-ligue .grille-aides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.section-ligue .carte-aide {
+    padding: 32px;
+    background-color: var(--blanc);
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(107, 48, 72, 0.06);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.section-ligue .carte-aide:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(107, 48, 72, 0.10);
+}
+
+.section-ligue .icone-aide {
+    display: block;
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+
+.section-ligue .carte-aide h3 {
+    margin: 0 0 12px;
+    color: var(--prune);
+    font-size: 21px;
+}
+
+.section-ligue .carte-aide p {
+    margin: 0;
+    color: #625b5b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* Bloc avec le bouton */
+
+.section-ligue .bloc-lien-accompagnement {
+    margin-top: 35px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--blanc);
+    border-radius: 20px;
+}
+
+.section-ligue .bloc-lien-accompagnement p {
+    margin: 0 0 22px;
+    color: #625b5b;
+    line-height: 1.6;
+}
+
+.section-ligue .bloc-lien-accompagnement .bouton {
+    display: inline-block;
+    padding: 14px 25px;
+    color: var(--blanc);
+    background-color: var(--prune);
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.section-ligue .bloc-lien-accompagnement .bouton:hover {
+    transform: translateY(-2px);
+    background-color: #57263a;
+}
+
+
+/* ==================================================
+   SECTION LIGUE - MOBILE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .section-ligue {
+        padding: 70px 22px;
+    }
+
+    .section-ligue h2 {
+        font-size: 31px;
+    }
+
+    .section-ligue .grille-aides {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+    .section-ligue .carte-aide {
+        padding: 26px 24px;
+    }
+
+    .section-ligue .bloc-lien-accompagnement {
+        padding: 26px 20px;
+    }
+}
+/* ==================================================
+   BOUTONS OUTRE-MER
+================================================== */
+
+.boutons-outremer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: -20px 0 35px;
+}
+
+.bouton-outremer {
+    padding: 10px 17px;
+
+    color: var(--prune);
+    background-color: var(--blanc);
+
+    border: 1px solid rgba(107, 48, 72, 0.15);
+    border-radius: 30px;
+
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.bouton-outremer:hover {
+    background-color: var(--rose-nude);
+    transform: translateY(-2px);
+}
+
+.bouton-outremer.bouton-outremer-actif {
+    color: var(--blanc);
+    background-color: var(--prune);
+    border-color: var(--prune);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .boutons-outremer {
+        margin: -10px 0 30px;
+        gap: 8px;
+    }
+
+    .bouton-outremer {
+        padding: 9px 13px;
+        font-size: 12px;
+    }
+
+}
+/* ==================================================
+   FINITIONS PAGE ACCOMPAGNEMENT
+   Largeurs + espacements
+================================================== */
+
+
+/* Même largeur élégante pour les grandes sections */
+
+.section-associations .contenu-accompagnement,
+.carte-france-section .contenu-accompagnement {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Associations : un peu moins d'espace vertical */
+
+.section-associations {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/* Carte : rapproche légèrement la section */
+
+.carte-france-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/* Réduit l'espace sous le texte d'introduction de la carte */
+
+.carte-france-section .intro-carte-france {
+    margin-bottom: 30px;
+}
+
+
+/* Les boutons Outre-mer ne remontent plus sur le texte */
+
+.carte-france-section .boutons-outremer {
+    margin: 0 0 30px;
+}
+
+
+/* Harmonise légèrement les cartes d'associations */
+
+.section-associations .grille-associations {
+    gap: 24px;
+    margin-top: 40px;
+}
+
+
+/* Note sous les associations plus compacte */
+
+.section-associations .note-associations {
+    margin-top: 32px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .section-associations,
+    .carte-france-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-associations .contenu-accompagnement,
+    .carte-france-section .contenu-accompagnement {
+        width: 100%;
+    }
+
+}/* ==================================================
+   FINITIONS CARTE DE FRANCE
+================================================== */
+
+
+/* Meilleur équilibre entre la carte et le panneau */
+
+.carte-france-conteneur {
+    grid-template-columns: minmax(0, 1.15fr) minmax(330px, 0.85fr);
+    gap: 32px;
+    align-items: start;
+}
+
+
+/* Carte légèrement plus compacte */
+
+.carte-france {
+    min-height: 510px;
+    padding: 20px;
+
+    border: 1px solid rgba(107, 48, 72, 0.06);
+
+    box-shadow:
+        0 12px 35px rgba(107, 48, 72, 0.06);
+}
+
+
+/* Taille réelle du dessin de la France */
+
+#carte-france svg {
+    width: 84%;
+    max-width: 560px;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ==================================================
+   PANNEAU DU DÉPARTEMENT
+================================================== */
+
+.departement-infos {
+    position: relative;
+
+    min-height: 280px;
+
+    padding: 38px 34px;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+
+    box-shadow:
+        0 12px 35px rgba(107, 48, 72, 0.07);
+}
+
+
+/* Petite ligne rose en haut du panneau */
+
+.departement-infos::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 5px;
+
+    background-color: var(--rose-nude);
+}
+
+
+/* Petit titre */
+
+.departement-label {
+    margin-top: 5px;
+    margin-bottom: 14px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+/* Nom du département */
+
+.departement-infos h3 {
+    margin-bottom: 18px;
+
+    font-size: 27px;
+    line-height: 1.25;
+}
+
+
+/* Texte d'introduction */
+
+.departement-infos > p:not(.departement-label) {
+    margin-bottom: 0;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* ==================================================
+   RESSOURCES DANS LE PANNEAU
+================================================== */
+
+.departement-ressources {
+    margin-top: 26px;
+}
+
+
+/* Petites cartes classiques */
+
+.ressource-departement {
+    margin-top: 12px;
+    padding: 15px 17px;
+
+    border: 1px solid rgba(107, 48, 72, 0.07);
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+
+.ressource-departement:hover {
+    transform: translateY(-2px);
+}
+
+
+/* Associations locales */
+
+.association-locale-carte {
+    margin-top: 16px;
+    padding: 20px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 5px 18px rgba(107, 48, 72, 0.04);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.association-locale-carte:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 9px 25px rgba(107, 48, 72, 0.08);
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .carte-france-conteneur {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+
+    .carte-france {
+        min-height: 380px;
+        padding: 15px;
+    }
+
+
+    #carte-france svg {
+        width: 100%;
+        max-width: 430px;
+    }
+
+
+    .departement-infos {
+        min-height: auto;
+
+        padding: 30px 24px;
+    }
+
+
+    .departement-infos h3 {
+        font-size: 24px;
+    }
+
+}
+/* ==================================================
+   CORRECTION BAS PAGE ACCOMPAGNEMENT
+================================================== */
+
+body .trouver-aide {
+    width: 100%;
+    padding: 70px 30px !important;
+    background-color: var(--prune) !important;
+}
+
+body .trouver-aide .bloc-trouver-aide {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+body .trouver-aide .petit-titre {
+    margin: 0 0 15px;
+    color: var(--rose-nude) !important;
+}
+
+body .trouver-aide h2 {
+    max-width: 650px;
+    margin: 0 auto 20px !important;
+
+    color: var(--blanc) !important;
+
+    font-size: 36px;
+    line-height: 1.25;
+}
+
+body .trouver-aide p:not(.petit-titre) {
+    max-width: 650px;
+
+    margin: 0 auto 30px !important;
+
+    color: rgba(255, 255, 255, 0.85) !important;
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+body .trouver-aide .bouton {
+    display: inline-block;
+
+    padding: 13px 27px;
+
+    color: var(--prune) !important;
+    background-color: var(--blanc) !important;
+
+    border-radius: 30px;
+}
+
+body .trouver-aide .bouton:hover {
+    background-color: var(--rose-nude) !important;
+}
+
+
+/* ==================================================
+   À SAVOIR
+================================================== */
+
+body .rappel-accompagnement {
+    width: 100%;
+
+    padding: 35px 30px 50px !important;
+
+    background-color: var(--creme) !important;
+}
+
+body .rappel-accompagnement .contenu-etroit {
+    position: relative;
+
+    width: 100%;
+    max-width: 800px;
+
+    margin: 0 auto !important;
+
+    padding: 24px 30px 24px 65px !important;
+
+    text-align: left !important;
+
+    background-color: var(--blanc);
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-left: 4px solid var(--rose-nude);
+
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(107, 48, 72, 0.05);
+}
+
+body .rappel-accompagnement .contenu-etroit::before {
+    content: "i";
+
+    position: absolute;
+
+    top: 23px;
+    left: 25px;
+
+    width: 26px;
+    height: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: var(--rose-nude);
+
+    border-radius: 50%;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body .rappel-accompagnement p {
+    margin: 0 !important;
+
+    color: #625b5b;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+body .rappel-accompagnement strong {
+    color: var(--prune);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    body .trouver-aide {
+        padding: 55px 22px !important;
+    }
+
+    body .trouver-aide h2 {
+        font-size: 29px;
+    }
+
+    body .rappel-accompagnement {
+        padding: 25px 22px 40px !important;
+    }
+
+    body .rappel-accompagnement .contenu-etroit {
+        padding: 55px 22px 24px !important;
+    }
+
+    body .rappel-accompagnement .contenu-etroit::before {
+        top: 18px;
+        left: 22px;
+    }
+
+}/* ==================================================
+   FINITIONS HAUT PAGE ACCOMPAGNEMENT
+================================================== */
+
+
+/* HERO : un peu moins haut */
+
+.accompagnement-hero {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+/* Introduction : rapproche les sections */
+
+.accompagnement-intro {
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
+
+
+/* Ligue : moins d'espace inutile */
+
+.section-ligue {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/* Titres légèrement mieux espacés */
+
+.accompagnement-intro h2,
+.section-ligue h2,
+.section-associations h2,
+.carte-france-section h2 {
+    margin-top: 8px;
+}
+
+
+/* Texte de la Ligue un peu plus proche des cartes */
+
+.section-ligue .texte-section {
+    margin-bottom: 35px;
+}
+
+.section-ligue .grille-aides {
+    margin-top: 35px;
+}
+
+
+/* Harmonisation entre Ligue et Associations */
+
+.section-ligue .bloc-lien-accompagnement {
+    margin-top: 30px;
+}
+
+.section-associations {
+    padding-top: 75px;
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .accompagnement-hero {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .accompagnement-intro {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .section-ligue {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-associations {
+        padding-top: 60px;
+    }
+
+}/* ==================================================
+   FINITION CARTES RESSOURCES DÉPARTEMENT
+================================================== */
+
+.ressource-departement {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+    width: 100%;
+
+    margin-top: 14px;
+    padding: 20px;
+
+    background-color: #F7EEEE;
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-radius: 16px;
+
+    color: var(--texte);
+}
+
+
+/* Si une icône est présente */
+
+.ressource-departement > span:first-child {
+    flex-shrink: 0;
+
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+
+/* Zone texte */
+
+.ressource-departement h4,
+.ressource-departement h5 {
+    margin: 0 0 8px;
+
+    color: var(--prune);
+
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+
+.ressource-departement p {
+    margin: 0 0 12px;
+
+    color: #625b5b;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* Petit badge du bas */
+
+.ressource-departement small,
+.ressource-departement .badge {
+    display: inline-block;
+
+    padding: 5px 9px;
+
+    color: var(--prune);
+    background-color: var(--blanc);
+
+    border-radius: 20px;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+
+/* On évite l'ancien fond rose complet au survol */
+
+.ressource-departement:hover {
+    background-color: #F3E5E5;
+
+    transform: translateY(-2px);
+}
+/* ==================================================
+   PROXILIGUE
+================================================== */
+
+.bloc-proxiligue {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+
+    margin: 35px 0 40px;
+    padding: 28px 32px;
+
+    background-color: #F7EEEE;
+
+    border: 1px solid rgba(107, 48, 72, 0.08);
+    border-left: 4px solid var(--rose-nude);
+
+    border-radius: 18px;
+}
+
+
+.icone-proxiligue {
+    flex-shrink: 0;
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--blanc);
+
+    border-radius: 50%;
+
+    font-size: 24px;
+}
+
+
+.contenu-proxiligue {
+    flex: 1;
+}
+
+
+.label-proxiligue {
+    margin: 0 0 8px !important;
+
+    color: var(--rose-nude) !important;
+
+    font-size: 11px !important;
+    font-weight: 700;
+
+    letter-spacing: 1.7px;
+}
+
+
+.bloc-proxiligue h3 {
+    margin: 0 0 12px;
+
+    color: var(--prune);
+
+    font-size: 21px;
+    line-height: 1.35;
+}
+
+
+.bloc-proxiligue p {
+    margin: 0;
+
+    color: #625b5b;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+.bloc-proxiligue .note-proxiligue {
+    margin-top: 12px;
+
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+
+    .bloc-proxiligue {
+        gap: 15px;
+
+        padding: 24px 20px;
+    }
+
+    .icone-proxiligue {
+        width: 42px;
+        height: 42px;
+
+        font-size: 20px;
+    }
+
+    .bloc-proxiligue h3 {
+        font-size: 19px;
+    }
+
+}/* ==================================================
+   PROXILIGUE - CONTENU CENTRÉ
+================================================== */
+
+.bloc-proxiligue {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+.icone-proxiligue {
+    margin: 0 auto;
+}
+
+
+.contenu-proxiligue {
+    width: 100%;
+    max-width: 850px;
+
+    margin: 0 auto;
+}
+
+
+.label-proxiligue {
+    text-align: center;
+}
+
+
+.bloc-proxiligue h3 {
+    text-align: center;
+}
+
+
+.bloc-proxiligue p {
+    max-width: 850px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+.bloc-proxiligue .note-proxiligue {
+    text-align: center;
+}
+/* ==================================================
+   INTRO ACCOMPAGNEMENT - VERSION PLUS ÉLÉGANTE
+================================================== */
+
+body .accompagnement-intro {
+    padding: 55px 30px 65px !important;
+
+    background-color: var(--creme) !important;
+}
+
+
+body .accompagnement-intro .contenu-etroit {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 45px 55px;
+
+    text-align: center;
+
+    background-color: var(--blanc);
+
+    border: 1px solid rgba(107, 48, 72, 0.07);
+    border-radius: 24px;
+
+    box-shadow:
+        0 12px 35px rgba(107, 48, 72, 0.06);
+}
+
+
+/* Petit titre */
+
+body .accompagnement-intro .petit-titre {
+    margin: 0 0 12px;
+
+    color: var(--rose-nude);
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+
+/* Grand titre */
+
+body .accompagnement-intro h2 {
+    max-width: 700px;
+
+    margin: 0 auto 22px;
+
+    color: var(--prune);
+
+    font-size: 34px;
+    line-height: 1.3;
+}
+
+
+/* Paragraphes */
+
+body .accompagnement-intro p:not(.petit-titre) {
+    max-width: 720px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #625b5b;
+
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+
+body .accompagnement-intro p:not(.petit-titre) + p {
+    margin-top: 14px;
+}
+
+
+/* Rapproche la Ligue */
+
+body .section-ligue {
+    padding-top: 65px !important;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    body .accompagnement-intro {
+        padding: 40px 22px 50px !important;
+    }
+
+    body .accompagnement-intro .contenu-etroit {
+        padding: 32px 24px;
+
+        border-radius: 20px;
+    }
+
+    body .accompagnement-intro h2 {
+        font-size: 28px;
+    }
+
+}
