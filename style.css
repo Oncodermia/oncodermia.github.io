@@ -3925,3 +3925,40 @@ body .section-ligue {
 .mot-fin-oncodermia {
     padding: 32px 22px;
 }
+/* ==================================================
+   CORRECTION ARTICLE MOBILE - FORCÉE
+================================================== */
+
+@media screen and (max-width: 768px) {
+
+    .article .article-image-texte {
+        display: block !important;
+        margin-top: 20px !important;
+    }
+
+    .article .article-image-texte-contenu {
+        width: 100% !important;
+    }
+
+    .article .article-image-texte-media {
+        width: 230px !important;
+        max-width: 230px !important;
+
+        margin: 25px auto 0 !important;
+    }
+
+    .article .article-image-texte-media img {
+        display: block !important;
+
+        width: 230px !important;
+        max-width: 230px !important;
+        height: 190px !important;
+
+        object-fit: cover !important;
+
+        margin: 0 auto !important;
+
+        border-radius: 14px !important;
+    }
+
+}
