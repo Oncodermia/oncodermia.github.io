@@ -3962,3 +3962,31 @@ body .section-ligue {
     }
 
 }
+@media (max-width: 768px) {
+
+    .image-article-principale {
+        margin-bottom: 0 !important;
+    }
+
+    .image-article-principale + .article-contenu {
+        padding-top: 5px !important;
+    }
+
+}
+@media (max-width: 768px) {
+
+    /* Section qui contient l'image principale */
+    .article-contenu:has(.image-article-principale) {
+        padding-bottom: 5px !important;
+    }
+
+    .image-article-principale {
+        margin-bottom: 0 !important;
+    }
+
+    /* Section juste après l'image */
+    .article-contenu:has(.image-article-principale) + .article-contenu {
+        padding-top: 10px !important;
+    }
+
+}
