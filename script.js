@@ -17,4 +17,3 @@ if (boutonMenu && navigation) {
 
     });
 
-}
