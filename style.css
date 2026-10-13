@@ -3790,40 +3790,13 @@ body .section-ligue {
     box-shadow: 0 8px 25px rgba(107, 48, 72, 0.08);
 }
 /* ==================================================
-   ARTICLE - IMAGES MOBILE
+   ARTICLE - MOBILE
 ================================================== */
 
 @media (max-width: 768px) {
 
-    .image-article-principale {
-        margin-bottom: 40px;
-    }
-
-    .image-article-principale img {
-        border-radius: 14px;
-    }
-
-    .article-image-texte {
-        grid-template-columns: 1fr;
-
-        gap: 25px;
-    }
-
-    .article-image-texte-media {
-        width: 100%;
-        max-width: 360px;
-
-        margin: 0 auto;
-    }
-
-    .article-image-texte-media img {
-        border-radius: 14px;
-    }
-}
-@media (max-width: 768px) {
-
     .article-contenu {
-        padding: 30px 20px 40px;
+        padding: 20px 20px 25px;
     }
 
     .article-contenu h2 {
@@ -3847,30 +3820,26 @@ body .section-ligue {
     /* IMAGE PRINCIPALE */
 
     .image-article-principale {
-        margin: 0 auto 35px;
+        margin: 0 auto 10px;
     }
 
     .image-article-principale img {
         width: 100%;
         height: auto;
-
         border-radius: 14px;
     }
 
     .legende-image {
-        margin-top: 10px !important;
+        margin-top: 8px !important;
+        margin-bottom: 0 !important;
         font-size: 12px !important;
     }
 
 
-    /* BLOCS TEXTE + IMAGE */
+    /* TEXTE + PETITES IMAGES */
 
     .article-image-texte {
-        display: flex;
-        flex-direction: column;
-
-        gap: 20px;
-
+        display: block;
         margin-top: 20px;
     }
 
@@ -3879,15 +3848,19 @@ body .section-ligue {
     }
 
     .article-image-texte-media {
-        width: 100%;
-        max-width: 280px;
+        width: 230px;
+        max-width: 230px;
 
-        margin: 10px auto 0;
+        margin: 25px auto 0;
     }
 
     .article-image-texte-media img {
-        width: 100%;
-        height: auto;
+        display: block;
+
+        width: 230px;
+        height: 190px;
+
+        object-fit: cover;
 
         border-radius: 14px;
     }
@@ -3918,75 +3891,4 @@ body .section-ligue {
         font-size: 16px !important;
         line-height: 1.7;
     }
-}
-.image-article-principale {
-    margin-bottom: 35px;
-}
-.mot-fin-oncodermia {
-    padding: 32px 22px;
-}
-/* ==================================================
-   CORRECTION ARTICLE MOBILE - FORCÉE
-================================================== */
-
-@media screen and (max-width: 768px) {
-
-    .article .article-image-texte {
-        display: block !important;
-        margin-top: 20px !important;
-    }
-
-    .article .article-image-texte-contenu {
-        width: 100% !important;
-    }
-
-    .article .article-image-texte-media {
-        width: 230px !important;
-        max-width: 230px !important;
-
-        margin: 25px auto 0 !important;
-    }
-
-    .article .article-image-texte-media img {
-        display: block !important;
-
-        width: 230px !important;
-        max-width: 230px !important;
-        height: 190px !important;
-
-        object-fit: cover !important;
-
-        margin: 0 auto !important;
-
-        border-radius: 14px !important;
-    }
-
-}
-@media (max-width: 768px) {
-
-    .image-article-principale {
-        margin-bottom: 0 !important;
-    }
-
-    .image-article-principale + .article-contenu {
-        padding-top: 5px !important;
-    }
-
-}
-@media (max-width: 768px) {
-
-    /* Section qui contient l'image principale */
-    .article-contenu:has(.image-article-principale) {
-        padding-bottom: 5px !important;
-    }
-
-    .image-article-principale {
-        margin-bottom: 0 !important;
-    }
-
-    /* Section juste après l'image */
-    .article-contenu:has(.image-article-principale) + .article-contenu {
-        padding-top: 10px !important;
-    }
-
 }
