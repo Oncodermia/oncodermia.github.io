@@ -3820,3 +3820,108 @@ body .section-ligue {
         border-radius: 14px;
     }
 }
+@media (max-width: 768px) {
+
+    .article-contenu {
+        padding: 30px 20px 40px;
+    }
+
+    .article-contenu h2 {
+        font-size: 28px;
+        line-height: 1.25;
+        margin-bottom: 22px;
+    }
+
+    .article-contenu h3 {
+        font-size: 23px;
+        line-height: 1.3;
+    }
+
+    .article-contenu p,
+    .article-contenu li {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+
+    /* IMAGE PRINCIPALE */
+
+    .image-article-principale {
+        margin: 0 auto 35px;
+    }
+
+    .image-article-principale img {
+        width: 100%;
+        height: auto;
+
+        border-radius: 14px;
+    }
+
+    .legende-image {
+        margin-top: 10px !important;
+        font-size: 12px !important;
+    }
+
+
+    /* BLOCS TEXTE + IMAGE */
+
+    .article-image-texte {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        margin-top: 20px;
+    }
+
+    .article-image-texte-contenu {
+        width: 100%;
+    }
+
+    .article-image-texte-media {
+        width: 100%;
+        max-width: 280px;
+
+        margin: 10px auto 0;
+    }
+
+    .article-image-texte-media img {
+        width: 100%;
+        height: auto;
+
+        border-radius: 14px;
+    }
+
+
+    /* ENCADRÉS */
+
+    .encadre-information,
+    .encadre-conseil {
+        margin-top: 25px;
+        padding: 22px 20px;
+    }
+
+
+    /* MOT DE FIN */
+
+    .mot-fin-oncodermia {
+        margin-top: 40px;
+        padding: 32px 22px;
+    }
+
+    .mot-fin-oncodermia h2 {
+        font-size: 25px;
+        line-height: 1.25;
+    }
+
+    .texte-mot-fin {
+        font-size: 16px !important;
+        line-height: 1.7;
+    }
+}
+.image-article-principale {
+    margin-bottom: 35px;
+}
+.mot-fin-oncodermia {
+    padding: 32px 22px;
+}
