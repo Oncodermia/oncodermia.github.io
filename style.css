@@ -3820,7 +3820,7 @@ body .section-ligue {
     /* IMAGE PRINCIPALE */
 
     .image-article-principale {
-        margin: 0 auto 10px;
+        margin: 0 auto 0px;
     }
 
     .image-article-principale img {
