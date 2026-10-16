@@ -3878,7 +3878,7 @@ body .section-ligue {
     /* MOT DE FIN */
 
     .mot-fin-oncodermia {
-        margin-top: 5px;
+        margin-top: px;
         padding: 32px 22px;
     }
 
@@ -3890,5 +3890,66 @@ body .section-ligue {
     .texte-mot-fin {
         font-size: 16px !important;
         line-height: 1.7;
+    }
+}
+/* ==================================================
+   IMAGES SIMPLES DANS LES ARTICLES
+================================================== */
+
+.article-image-simple {
+    max-width: 620px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.article-image-simple img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(107, 48, 72, 0.08);
+}
+
+@media (max-width: 768px) {
+
+    .article-image-simple {
+        max-width: 280px;
+        margin: 25px auto;
+    }
+
+    .article-image-simple img {
+        border-radius: 14px;
+    }
+
+}
+/* ==================================================
+   TAILLE DES IMAGES DANS LES ARTICLES
+================================================== */
+
+.article-image-simple {
+    width: 100%;
+    max-width: 520px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.article-image-simple img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(107, 48, 72, 0.08);
+}
+
+@media (max-width: 768px) {
+
+    .article-image-simple {
+        max-width: 280px;
+        margin: 25px auto;
+    }
+
+    .article-image-simple img {
+        border-radius: 14px;
     }
 }
