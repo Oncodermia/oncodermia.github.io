@@ -3947,3 +3947,76 @@ body .section-ligue {
     }
 
 }
+/* ==================================================
+   FORCER LA TAILLE DES IMAGES SECONDAIRES
+================================================== */
+
+img.image-secondaire-article {
+    display: block !important;
+
+    width: 420px !important;
+    max-width: 420px !important;
+    height: 280px !important;
+
+    object-fit: cover !important;
+
+    margin: 0 auto !important;
+
+    border-radius: 16px !important;
+
+    box-shadow: 0 8px 25px rgba(107, 48, 72, 0.08);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    img.image-secondaire-article {
+        width: 260px !important;
+        max-width: 260px !important;
+        height: 190px !important;
+
+        object-fit: cover !important;
+
+        border-radius: 14px !important;
+    }
+
+}
+
+/* ==================================================
+   PAGE À PROPOS - CARTES MISSIONS MOBILE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .grille-aides {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    .carte-aide {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 26px 22px !important;
+        border-radius: 20px !important;
+    }
+
+    .carte-aide h3 {
+        font-size: 22px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 14px !important;
+    }
+
+    .carte-aide p {
+        font-size: 16px !important;
+        line-height: 1.7 !important;
+    }
+
+    .icone-aide {
+        font-size: 28px !important;
+        display: inline-block;
+        margin-bottom: 14px !important;
+    }
+
+}
