@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Oncodermia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         EN-TÊTE
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+            <a href="index.html">
+                Oncodermia
+            </a>
+        </div>
+
+        <button
+            class="menu-mobile"
+            id="menu-mobile"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+            aria-controls="navigation-principale"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="navigation-principale">
+
+            <a href="index.html">
+                Accueil
+            </a>
+
+            <div class="menu-deroulant">
+
+                <a href="index.html#soins">
+                    Soins ▾
+                </a>
+
+                <div class="sous-menu">
+
+                    <a href="visage.html">
+                        Visage
+                    </a>
+
+                    <a href="corps.html">
+                        Corps
+                    </a>
+
+                    <a href="cuir-chevelu.html">
+                        Cuir chevelu
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="accompagnement.html">
+                Accompagnement
+            </a>
+
+            <a href="remission.html">
+                Rémission
+            </a>
+
+            <a href="a-propos.html">
+                À propos
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="page-hero">
+
+            <div class="page-hero-contenu">
+
+                <p class="hero-sur-titre">
+                    CONTACT
+                </p>
+
+                <h1>
+                    Une question ?
+                    <span>Contactez Oncodermia</span>
+                </h1>
+
+                <p>
+                    Vous souhaitez poser une question sur le site,
+                    proposer une ressource, signaler une association
+                    ou en ajouter une ?
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTRODUCTION
+        ========================== -->
+
+        <section class="accompagnement-intro">
+
+            <div class="contenu-etroit">
+
+                <p class="petit-titre">
+                    ÉCHANGEONS
+                </p>
+
+                <h2>
+                    Comment puis-je vous aider ?
+                </h2>
+
+                <p>
+                    Vous pouvez utiliser le formulaire ci-dessous pour me contacter.
+                </p>
+
+                <p>
+                    Je ferai au mieux pour vous orienter vers les informations
+                    ou ressources adaptées à votre demande.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TYPES DE DEMANDES
+        ========================== -->
+
+        <section class="section-associations">
+
+            <div class="contenu-accompagnement">
+
+                <p class="petit-titre">
+                    VOTRE DEMANDE
+                </p>
+
+                <h2>
+                    Vous pouvez notamment me contacter pour
+                </h2>
+
+                <div class="grille-aides">
+
+                    <!-- QUESTION -->
+
+                    <article class="carte-aide">
+
+                        <span class="icone-aide">
+                            💬
+                        </span>
+
+                        <h3>
+                            Une question sur Oncodermia
+                        </h3>
+
+                        <p>
+                            Une remarque sur un article, une suggestion de sujet
+                            ou une information à compléter.
+                        </p>
+
+                    </article>
+
+
+                    <!-- ASSOCIATION -->
+
+                    <article class="carte-aide">
+
+                        <span class="icone-aide">
+                            🌸
+                        </span>
+
+                        <h3>
+                            Une association ou une ressource à référencer
+                        </h3>
+
+                        <p>
+                            Vous représentez une association, un professionnel
+                            ou une structure proposant des soins de support
+                            ou un accompagnement aux personnes touchées par le cancer,
+                            ou vous souhaitez simplement me signaler une ressource utile.
+                        </p>
+
+                    </article>
+
+
+                    <!-- AUTRE -->
+
+                    <article class="carte-aide">
+
+                        <span class="icone-aide">
+                            ✉️
+                        </span>
+
+                        <h3>
+                            Autre
+                        </h3>
+
+                        <p>
+                            Pour toute autre question ou demande concernant Oncodermia.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FORMULAIRE
+        ========================== -->
+
+        <section class="section-ligue">
+
+            <div class="contenu-accompagnement">
+
+                <p class="petit-titre">
+                    FORMULAIRE DE CONTACT
+                </p>
+
+                <h2>
+                    Envoyer un message
+                </h2>
+
+                <form class="formulaire-contact">
+
+                    <div class="champ-formulaire">
+
+                        <label for="prenom">
+                            Prénom
+                        </label>
+
+                        <input
+                            type="text"
+                            id="prenom"
+                            name="prenom"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="champ-formulaire">
+
+                        <label for="email">
+                            Adresse e-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="champ-formulaire">
+
+                        <label for="sujet">
+                            Sujet
+                        </label>
+
+                        <select
+                            id="sujet"
+                            name="sujet"
+                            required
+                        >
+
+                            <option value="">
+                                Sélectionnez un sujet
+                            </option>
+
+                            <option value="question">
+                                Question sur Oncodermia
+                            </option>
+
+                            <option value="association">
+                                Association ou ressource
+                            </option>
+
+                            <option value="autre">
+                                Autre
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="champ-formulaire">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="8"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="consentement-contact">
+
+                        <input
+                            type="checkbox"
+                            id="consentement"
+                            name="consentement"
+                            required
+                        >
+
+                        <label for="consentement">
+                            J’accepte que les informations saisies soient utilisées
+                            uniquement afin de répondre à ma demande.
+                        </label>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="bouton"
+                    >
+                        Envoyer mon message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             IMPORTANT
+        ========================== -->
+
+        <section class="rappel-accompagnement">
+
+            <div class="contenu-etroit">
+
+                <p>
+                    <strong>Important :</strong>
+                    Oncodermia ne peut pas établir de diagnostic
+                    ni répondre aux situations médicales urgentes.
+                </p>
+
+                <p>
+                    Pour toute question concernant un symptôme,
+                    un effet indésirable important, une réaction cutanée inquiétante
+                    ou votre traitement, contactez votre équipe soignante,
+                    votre médecin, votre pharmacien ou un service médical adapté.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIED DE PAGE
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Oncodermia — Tous droits réservés.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <a
+        href="#"
+        class="bouton-haut"
+        aria-label="Revenir en haut"
+    >
+        ↑
+    </a>
+
+</body>
+
+</html>
