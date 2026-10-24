@@ -4327,64 +4327,64 @@ img.image-secondaire-article {
 /* Réglage individuel des photos */
 
 .photo-1 {
-    object-position: 50% 20%;;
+    object-position: 50% 20% !important;
 }
 
 .photo-2 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-3 {
-    object-position: 50% 80%;
+    object-position: 50% 80% !important;
 }
 
 .photo-4 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
     
 }
 
 .photo-5 {
-    object-position: 50% 80%;
+    object-position: 50% 80% !important;
 }
 
 .photo-6 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-7 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-8 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-9 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-10 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-12 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-13 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-14 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-15 {
-    object-position: 50% 20%;
+    object-position: 50% 20% !important;
 }
 
 .photo-16 {
-    object-position: 50% 80%;
+    object-position: 50% 80% !important;
 }
 
 /* barre de défilement discrète */
