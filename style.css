@@ -4313,7 +4313,7 @@ img.image-secondaire-article {
     border-radius: 18px;
     box-shadow: 0 8px 24px rgba(107, 48, 72, 0.10);
 }
-.carrousel-cure-piste img {
+.carrousel-cure-piste.img {
     width: 360px;
     height: 250px;
     object-fit: cover;
