@@ -4308,11 +4308,85 @@ img.image-secondaire-article {
     width: 360px;
     height: 250px;
     object-fit: cover;
-    border-radius: 18px;
+    object-position: center;
     flex-shrink: 0;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(107, 48, 72, 0.10);
+}
+.carrousel-cure-piste img {
+    width: 360px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+    border-radius: 18px;
     box-shadow: 0 8px 24px rgba(107, 48, 72, 0.10);
 }
 
+
+/* Réglage individuel des photos */
+
+.photo-1 {
+    object-position: center top;
+}
+
+.photo-2 {
+    object-position: center top;
+}
+
+.photo-3 {
+    object-position: center bottom;
+}
+
+.photo-4 {
+    object-position: center top;
+    
+}
+
+.photo-5 {
+    object-position: center bottom;
+}
+
+.photo-6 {
+    object-position: center top;
+}
+
+.photo-7 {
+    object-position: center top;
+}
+
+.photo-8 {
+    object-position: center top;
+}
+
+.photo-9 {
+    object-position: center top;
+}
+
+.photo-10 {
+    object-position: center top;
+}
+
+
+.photo-12 {
+    object-position: center top;
+}
+
+.photo-13 {
+    object-position: center top;
+}
+
+.photo-14 {
+    object-position: center top;
+}
+
+.photo-15 {
+    object-position: center top;
+}
+
+.photo-16 {
+    object-position: center bottom;
+}
 
 /* barre de défilement discrète */
 
