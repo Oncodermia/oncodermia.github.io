@@ -4327,65 +4327,64 @@ img.image-secondaire-article {
 /* Réglage individuel des photos */
 
 .photo-1 {
-    object-position: center top;
+    object-position: 50% 20%;;
 }
 
 .photo-2 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-3 {
-    object-position: center bottom;
+    object-position: 50% 80%;
 }
 
 .photo-4 {
-    object-position: center top;
+    object-position: 50% 20%;
     
 }
 
 .photo-5 {
-    object-position: center bottom;
+    object-position: 50% 80%;
 }
 
 .photo-6 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-7 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-8 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-9 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-10 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
-
 .photo-12 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-13 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-14 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-15 {
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 .photo-16 {
-    object-position: center bottom;
+    object-position: 50% 80%;
 }
 
 /* barre de défilement discrète */
